@@ -5,7 +5,6 @@
         if(n=5 || n=6){
             console.log("Moyen");
         }
-    return n;
  }
 checkNumber(3);
 checkNumber(5);

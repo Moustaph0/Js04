@@ -5,7 +5,6 @@ function checkSign(n){
         console.log("Positif");
     }
     
-    return n;
 }
 checkSign(-7);
 checkSign(5);

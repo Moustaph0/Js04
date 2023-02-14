@@ -1,14 +1,13 @@
-function checkSign(n,n1,n2){
+function checkSign(n){
     if(n<0){
         console.log("Negatif");
-    }
-    if(n1>0){
+    }else{
         console.log("Positif");
     }
-    if(n2>=0){
-        console.log("Positif");
-    }
-    return n, n1, n2;
+    
+    return n;
 }
-checkSign(-5, 1, 0);
+checkSign(-7);
+checkSign(5);
+checkSign(9);
 module.exports = checkSign;

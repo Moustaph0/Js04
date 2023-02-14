@@ -1,14 +1,13 @@
- function checkNumber(nbr, nbr1, nbr2){
-        if(nbr<5){
+ function checkNumber(n){
+        if(n<5){
             console.log("Faible");
         }
-        if(nbr1=5){
+        if(n=5 || n=6){
             console.log("Moyen");
         }
-        if(nbr2=6){
-            console.log("Moyen");
-        }
-    return nbr, nbr1, nbr2;
+    return n;
  }
- checkNumber(2, 5, 6);
+checkNumber(3);
+checkNumber(5);
+checkNumber(6);
 module.exports = checkNumber;

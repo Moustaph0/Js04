@@ -1,7 +1,7 @@
 function checkEvenOdd(i){
     
         if(i%2==0){
-            console.log("pair");
+            console.log("Pair");
         }
         else{
             console.log("Impair");

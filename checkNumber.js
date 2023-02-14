@@ -2,7 +2,7 @@ let n<=10;
 function checkNumber(n){
         if(n<5){
             console.log("Faible");
-        }else if(n=5 || n=6){
+        }else if(n==5 || n==6){
             console.log("Moyen");
         }
  }

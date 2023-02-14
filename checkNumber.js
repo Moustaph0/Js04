@@ -1,4 +1,3 @@
-let n<=10; 
 function checkNumber(n){
         if(n<5){
             console.log("Faible");
